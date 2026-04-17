@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import todoRoutes from './routes/todos';
-import { EOF } from 'dns';
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
